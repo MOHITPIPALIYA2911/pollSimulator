@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>poll simulator</title>
+    <link rel="stylesheet" href="../css/poll.css">
+</head>
+<body>
+
+
+    <!-- <form>
+        <input type="radio" name="choice" value="yes" id="choice-yes"> 
+        <label for="choice-yes">Yes</label>
+        <input type="radio" name="choice" value="no" id="choice-no">
+        <label for="choice-no">No</label>
+        <button id="btn">Show Selected Value</button>
+    </form>
+    <script>
+        const btn = document.querySelector('#btn');
+        // handle button click
+        btn.onclick = function () {
+            const rbs = document.querySelectorAll('input[name="choice"]');
+            let selectedValue;
+            for (const rb of rbs) {
+                if (rb.checked) {
+                    selectedValue = rb.value;
+                    break;
+                }
+            }
+            alert(selectedValue);
+        };
+    </script> -->
+
+
+    
+    <div id="background">
+    <h1 id="h1">Poll Simulator</h1>
+    <p> About : Who is the simplest person from the following ?</p>
+    <hr>
+        <form action=https://www.google.com/ id="form" name="form">
+            <label for="textInput">Voter ID</label>
+            <input type="text" placeholder="ID" id="textInput"><br>
+
+            <div id="candidates">
+                <input type="radio" id="pramod" name="candidate" value="Pramod_Pipaliya">
+                <label for="pramod">Pramod Pipaliya</label><br>
+                
+                <input type="radio" id="sandip" name="candidate" value="Sandip_Pipaliya">
+                <label for="sandip">Sandip Pipaliya</label><br>
+                
+                <input type="radio" id="vivek" name="candidate" value="Vivek_Pipaliya">
+                <label for="vivek">Vivek Pipaliya</label><br>
+            
+                <input type="radio" id="maulik" name="candidate" value="Maulik_Pipaliya">
+                <label for="maulik">Maulik Pipaliya</label><br>
+                
+                <input type="radio" id="mohit" name="candidate" value="Mohit_Pipaliya">
+                <label for="mohit">Mohit Pipaliya</label><br>
+
+            </div>
+            
+            <button id="vote">Vote</button>
+        </form>
+        <table id="table">
+            <tr>
+                <td>
+                    <div id="div2">
+                        <h2>Poll Result:</h2>
+                        <p><b>Won : </b><span id="resSpanW"></span></p>
+                        <p><b>Lost: </b><span id="resSpanL"></span></p>
+                        <ul id="ul"></ul>
+                    </div>
+                </td>
+                <td>
+                    <div id="div3">
+                        <h2>Voting Report:</h2>
+                        <p id="pp">Pramod Pipaliya (<span id="pramod3"></span>)</p>
+                        <p id="sp">Sandip Pipaliya (<span id="sandip3"></span>)</p>
+                        <p id="vp">Vivek Pipaliya  (<span id="vivek3"></span>)</p>
+                        <p id="mup">Maulik Pipaliya (<span id="maulik3"></span>)</p>
+                        <p id="mp">Mohit Pipaliya (<span id="mohit3"></span>)</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+ <script src="../js/poll.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+#background{
+    background-color:rgb(192, 221, 248);
+    height:max-content;
+}
+
+#h1{
+    text-align: center;
+}
+
+#form{
+    border: rgb(0, 0, 0) 2px solid;
+    padding: 20px;
+    width: 30%;
+    margin:auto;
+    margin-bottom:30px;
+    background-color: white;
+}
+
+#div2{
+    background-color:rgb(219, 238, 255);
+    border: rgb(0, 0, 0) 1px solid;
+    padding:20px;
+    width: 300px;
+    margin:10px;
+    height: 220px;
+}
+
+#div3{
+    background-color:rgb(219, 238, 255);
+    border: rgb(0, 0, 0) 1px solid;
+    padding:20px;
+    width: 300px;
+    margin:10px;
+    height: 220px;
+}
+
+#table{
+    width: 30%;
+    margin:auto;
+}
